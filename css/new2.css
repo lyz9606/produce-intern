@@ -1,0 +1,224 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 0;
+    margin: 0;
+    background-image: url(../image/OIP-C.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#header {
+    background: url(../image/bg2.jpg);
+    background-size: cover;
+    display: flex;
+    height: 160px;
+    padding: 5px;
+    font-size: 20px;
+}
+
+#logo, #pp, #none {
+    width: 33.33%;
+    text-align: center;
+}
+
+#logo {
+    float: left;
+    color: rgb(14, 14, 14);
+    font-size: 20px;
+}
+
+#pp {
+    float: right;
+    color: white;
+    font-size: 30px;
+}
+
+#none {
+    float: left;
+    color: white;
+}
+
+#main {
+    height: 1600px;
+    width: 100%;
+    font-size: 10px;
+}
+
+a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#footer {
+    text-align: center;
+    background-color: #1B293A;
+    color: white;
+    font-size: 15px;
+    height: 150px;
+    padding: 5px;
+}
+
+#link1 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 50px;
+}
+
+#content1, #news, #story, #project, #explore {
+    float: left;
+    height: 800px;
+}
+
+#content1 {
+    display: flex;
+    justify-content: center;
+    background-color: royalblue;
+    width: 50%;
+}
+
+#news {
+    float: right;
+    background-color: rgb(65, 225, 105);
+    width: 50%;
+}
+
+#story, #project, #explore {
+    width: 33.33%;
+}
+
+#story {
+    background-color: rgb(65, 225, 105);
+}
+
+#project {
+    background-color: rgb(84, 65, 225);
+}
+
+#explore {
+    background-color: rgb(225, 65, 65);
+}
+
+#nav1 {
+    list-style-type: none;
+    height: 60px;
+    text-align: center;
+    overflow: hidden;
+    background-color: rgb(247, 12, 12);
+    align-items: center;
+    display: flex;
+    font-size: 110px;
+}
+
+#gd {
+    float: left;
+}
+
+#gd a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#gd a:hover {
+    background-color: rgb(245, 241, 241);
+    color: rgb(247, 12, 12);
+}
+
+#gd .active {
+    background-color: rgb(243, 234, 234);
+    color: #000;
+}
+
+
+.box {
+    width: 500px;
+    height: 300px;
+    border: 1px solid #ccc;
+    margin: 100px auto;
+    padding: 5px;
+    overflow: hidden; /* 确保图片不被裁剪 */
+}
+
+.inner {
+    width: 500px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.inner img {
+    width: 500px;
+    height: 300px;
+    vertical-align: top;
+}
+
+ul {
+    width: 1000%;
+    position: absolute;
+    list-style: none;
+    left: 0;
+    top: 0;
+}
+
+.inner li {
+    float: left;
+}
+
+ol {
+    position: absolute;
+    height: 20px;
+    right: 20px;
+    bottom: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+ol li {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    background-color: #fff;
+    margin: 5px;
+    cursor: pointer;
+}
+
+ol .current {
+    background-color: red;
+}
+
+#arr {
+    display: none;
+}
+
+#arr span {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 5px;
+    top: 50%;
+    margin-top: -20px;
+    background: #fff;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: '黑体';
+    font-size: 30px;
+    color: #000;
+    opacity: 0.5;
+    border: 1px solid #fff;
+}
+
+#arr #right {
+    right: 5px;
+    left: auto;
+}
